@@ -1,29 +1,47 @@
-* {
+body {
   font-family: "Times New Roman", Times, serif;
+  background: rgb(226, 218, 202);
 }
 
 #topHeading {
-  border-bottom: black solid 1px;
+  border-bottom: black double 3px;
   padding: 15px;
   margin: 10px auto 10px auto;
 }
 
+#printquote {
+  border: solid 1px black;
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 #search-container {
-  border-bottom: black solid 1px;
+  border-bottom: black double 3px;
   padding: 10px;
   margin: 10px auto 10px auto;
 }
 
 #searchHist {
-  border: black solid 1px;
+  padding: 20px 0px 20px 10px;
 }
 
 #search-input {
   width: 100%;
+  background: rgb(230, 224, 212);
+}
+
+#searchInput {
+  padding: 0px 20px 0px 20px;
+}
+
+#searchBtn {
+  background: black;
+  color: white;
 }
 
 #mainArticle {
-  border: black solid 1px;
+  padding: 20px;
 }
 
 #articleImg {
@@ -31,4 +49,9 @@
   width: 100px;
   height: 100px;
   float: left;
+  margin-right: 10px;
+}
+
+#articleTitle {
+  text-align: left;
 }
